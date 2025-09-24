@@ -10,6 +10,11 @@ public class Ticket {
     private double price;
     private boolean active;
 
+    public Ticket(String titleMovie, Genre genre, double price) {
+        this.titleMovie = titleMovie;
+        this.genre = genre;
+        this.price = price;
+    }
 
     public void setId(Long id) {
         this.id = id;
